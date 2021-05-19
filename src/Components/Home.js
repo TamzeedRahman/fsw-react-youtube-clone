@@ -10,6 +10,7 @@ class Home extends Component {
         </form>
         <section>
           <h1>videos</h1>
+          <p>This is a test from Grace</p>
         </section>
       </div>
     );
