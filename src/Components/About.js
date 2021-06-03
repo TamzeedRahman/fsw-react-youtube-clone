@@ -1,7 +1,7 @@
 import React from "react";
 import GitHubIcon from '@material-ui/icons/GitHub';
 import "./About.css";
-const About = () => {
+const About = () => { //make sure to edit spacing for readability, especially when collaborating.
   return (
     <div>
       <div className="about">
@@ -14,7 +14,10 @@ const About = () => {
         </div>
         <div className="Grace bio">
           <h3>Grace Bong</h3>
-          <GitHubIcon onClick={() => window.open('https://github.com/bongster91')} />
+
+          {/* good job using materialUI */}
+
+          <GitHubIcon onClick={() => window.open('https://github.com/bongster91')} /> 
           <br />
           <p>
             "Be proactive, not just reactive." -Me Creative, aspiring software

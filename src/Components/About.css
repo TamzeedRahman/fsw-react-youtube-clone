@@ -8,6 +8,7 @@
   width: 500px;
   height: 100px;
 }
+/* Observation - the large height is what's causing a large block of empty space in your about page */
 
 .bio {
   border-bottom: 1px solid black;

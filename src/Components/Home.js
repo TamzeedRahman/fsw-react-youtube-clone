@@ -21,6 +21,7 @@ class Home extends Component {
       const { data } = await axios.get(
         `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=6&key=${API_KEY}&type=video&q=${search}`
       );
+      // "maxResults=6" can be updated to 10 in order to meet requirements
 
       this.setState({
         videos: data.items,

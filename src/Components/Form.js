@@ -3,7 +3,8 @@ import "./Form.css";
 
 const Form = ({ handleSubmit, handleChange }) => {
   return (
-    <div className="formcomment">
+    <div className="formcomment"> 
+    {/* not following camel case convention  */}
       <form onSubmit={handleSubmit}>
         <input
           onChange={handleChange}
