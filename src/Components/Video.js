@@ -4,7 +4,7 @@ import { v4 as uuid } from "uuid";
 import Comment from "./Comment";
 import Form from "./Form";
 import "./Video.css";
-class Video extends React.Component {
+class Video extends React.Component { //make sure to edit spacing for readability, especially when collaborating.
   state = {
     comment: "",
     comments: [],
@@ -59,6 +59,8 @@ class Video extends React.Component {
           className="Comment"
         />
         <ul>{listItem}</ul>
+        {/* if you are going to use a ul element make sure to include the il element
+          in comment.js file instead of the div element */}
       </div>
     );
   }
